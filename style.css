@@ -1,0 +1,49 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.color-picker-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#grey {
+    background-color: grey;
+    color: #fff;
+}
+
+#pink {
+    background-color: pink;
+    color: #fff;
+}
+
+#purple {
+    background-color: purple;
+    color: #fff;
+}
+
+#blue {
+    background-color: blue;
+    color: #fff;
+}
